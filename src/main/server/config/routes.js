@@ -22,5 +22,8 @@ module.exports = function (app, passport) {
         failureFlash: true // allow flash messages
     }));
 
-
+    //sample rest controller
+    //you may disregard things on top
+    //make better rest controllers for your domain
+    app.get('/rest', (req, res, err) => res.json({'hello':'world'}))
 }
