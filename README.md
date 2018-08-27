@@ -1,6 +1,6 @@
 # electron-vue-express
 
-> An electron-vue project
+> An electron-vue project integrated with express-mvc-generator
 
 #### Build Setup
 
